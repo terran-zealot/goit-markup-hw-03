@@ -5,12 +5,21 @@
     --secondary-color: #2e2f42;
     /* --navy-blue-color: #2E2F42; */
 }
+/* 
+*::before,
+::after {
+    box-sizing: border-box;
+} */
 
 body {
     font-family: var(--main-font);
     font-style: normal;
     color: #434455;
     background-color:  #FFFFFF;
+}
+
+h1 {
+    margin: 0px;
 }
 
 /* =============HOVERS&FOCUS============== */
@@ -45,6 +54,8 @@ background-color: #404BBF ;
 /* =============Components============== */
 .list {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .link {
@@ -82,6 +93,12 @@ background-color: #404BBF ;
 }
 /* =============/Components============== */
 /* =============HEADER============== */
+
+.div-navigation {
+    width: 1440px;
+    background-color: #cccccc;
+}
+
 .logo-web {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
