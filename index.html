@@ -13,87 +13,103 @@
     <!-- <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     > -->
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- =================HEADER=================== -->
     <header>        
-        <div class="div-navigation">
             <nav class="navigation">
-                <a href="./index.html" class="logo-web link">Web<span class="logo-studio link">Studio</span></a>
-                <ul class="nav-menu list">
-                    <li >
-                        <a href="./index.html" class="menu-item link">Studio</a>
-                    </li>
-                    <li>
-                        <a href="./portfolio.html" class="menu-item link">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="" class="menu-item link">Contacts</a>
-                    </li>
-                </ul>
+                <div class="container">
+                    <a href="./index.html" class="logo-web link">Web<span class="logo-studio link">Studio</span></a>
+                    <ul class="nav-menu list">
+                        <li >
+                            <a href="./index.html" class="menu-item link">Studio</a>
+                        </li>
+                        <li>
+                            <a href="./portfolio.html" class="menu-item link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-item link">Contacts</a>
+                        </li>
+                    </ul>
+                    
+                    <address class="adress">
+                        <ul class="list">
+                            <li>
+                                <a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a>
+                            </li>
+                            <li>
+                                <a href="tel:+110001111111" class="contact link">+11 (000) 111-11-11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
             </nav>
-            <address class="adress">
-                <ul class="list">
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a>
-                    </li>
-                    <li>
-                        <a href="tel:+110001111111" class="contact link">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-            </address>
-        </div>
     </header>
     <!-- =================/HEADER=================== -->
     <!-- =================MAIN=================== -->
     <main>
         <!-- Hero section -->
-        <section class="hero-section">
-            <h1 class="hero-title">Effective Solutions
-                for Your Business
-            </h1>
-            <button type="button" class="hero-btn">Order Service</button>
-        </section>
-        <!-- /Hero section -->
-        <!-- Description -->
-        <section class="description-section">
-            <h2 hidden class="title-section-two">features</h2>
-            <ul class="features list">
-                <li>
-                    <h3 class="component-list">Strategy</h3>
-                    <p class="component-list-item">Our goal is to identify the business
-                        problem to walk away with the perfect and creative solution.</p>
-                </li>
-                <li>
-                    <h3 class="component-list">Punctuality</h3>
-                     <p class="component-list-item">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
-                <li>
-                    <h3 class="component-list">Diligence</h3>
-                     <p class="component-list-item">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>
-                <li>
-                    <h3 class="component-list">Technologies</h3>
-                     <p class="component-list-item">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
-        </section>
+            <section class="hero-section">
+                <div class="second-container">
+                <h1 class="hero-title">Effective Solutions
+                    for Your Business
+                </h1>
+                <button type="button" class="hero-btn">Order Service</button>
+            </section>
+            <!-- /Hero section -->
+            <!-- Description -->
+            <section class="description-section">
+            <div class="container">
+                <h2 hidden class="title-section-two">features</h2>
+                <ul class="features list">
+                    <li>
+                        <div class="features-item">
+                            <h3 class="component-list">Strategy</h3>
+                            <p class="component-list-item">Our goal is to identify the business
+                                problem to walk away with the perfect and creative solution.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="features-item">
+                        <h3 class="component-list">Punctuality</h3>
+                         <p class="component-list-item">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="features-item">
+                        <h3 class="component-list">Diligence</h3>
+                         <p class="component-list-item">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="features-item">
+                        <h3 class="component-list">Technologies</h3>
+                         <p class="component-list-item">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </section>
         <!-- /Description -->
         <!-- About work section -->
         <section class="about-work-section">
+            <div class="container">
             <h2 class="title-section-three">What are we doing</h2>
             <ul class="list">
                 <li><img src="./images/comoputer.jpg" alt="computer" width="360"></li>
                 <li><img src="./images/phone.jpg" alt="phone" width="360"></li>
                 <li><img src="./images/phone-and-comp.jpg" alt="phone and computer" width="360"></li>
             </ul>
+            </div>
         </section>
         <!-- /About work section -->
         <!-- Team section -->
         <section class="team-section">
-            <h2 class="title-section-three">Our Team</h2>
+            <div class="container">
+                <h2 class="title-section-three">Our Team</h2>
             <ul class="list">
                 <li class="team-card"><img src="./images/mark-guerrero.jpg" alt="Photo Mark Guerrero" width="264">
                 <h3 class="component-list-img">Mark Guerrero</h3>
@@ -112,6 +128,7 @@
                 <p class="component-list-item">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!-- /Team section -->
     </main>

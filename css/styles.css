@@ -16,10 +16,18 @@ body {
     font-style: normal;
     color: #434455;
     background-color:  #FFFFFF;
+    /* width: 1440px; */
+    box-sizing: border-box;
 }
 
-h1 {
-    margin: 0px;
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
 }
 
 /* =============HOVERS&FOCUS============== */
@@ -52,6 +60,22 @@ background-color: #404BBF ;
 /* =============/HOVERS&FOCUS============== */
 
 /* =============Components============== */
+
+.container {
+    width: 1128px;
+    /* height: 600px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #cccccc;
+    outline: 2px solid red;
+}
+
+.second-container {
+    width: 1440px;
+}
+
 .list {
     list-style: none;
     margin: 0px;
@@ -60,6 +84,7 @@ background-color: #404BBF ;
 
 .link {
     text-decoration: none;
+    /* margin: 0px; */
 }
 
 .component-list {
@@ -70,6 +95,9 @@ background-color: #404BBF ;
     letter-spacing: 0.02em;
     
     color: var(--secondary-color);
+
+    padding-top: 120px;
+    /* padding-bottom: 120px; */
     }
     
 .component-list-item {
@@ -94,9 +122,18 @@ background-color: #404BBF ;
 /* =============/Components============== */
 /* =============HEADER============== */
 
-.div-navigation {
-    width: 1440px;
-    background-color: #cccccc;
+/* .div-navigation {
+    display: inline-block;
+    width: 1128px;
+    /* height: 72px; */
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+    background-color: #cccccc; */
+}
+
+.navigation {
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .logo-web {
@@ -108,8 +145,9 @@ background-color: #404BBF ;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: var(--main-color);
+    width: 44px;
+    height: 21px;
 }
 
 .logo-studio {
@@ -121,8 +159,9 @@ background-color: #404BBF ;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: var(--secondary-color);
+    width: 71px;
+    height: 21px;
 }
 
 
@@ -154,39 +193,60 @@ color: #434455;
 /* =============MAIN============== */
 
 .hero-section{
-    /* position: absolute; */
-/* width: 1440px;
-height: 603px;
-left: 0px;
-top: 72px; */
-
-/* NAVY BLUE */
+    box-sizing: border-box;
+    outline: 5px solid teal;
+    background-color: teal;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    width: 1440px;
+ 
 
 background: #2E2F42;
 }
 
-.hero-title {
-    
-font-weight: 600;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
+.hero-section .hero-title {
+    display: flex;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
+    margin-top: 0; 
+    
+    margin-bottom: 48px;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
+    height: 120px;
+
+   
+    outline: 5px solid red;
 }
 
 .hero-btn {
+    /* display: block; */
+    box-sizing: border-box;
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
+    padding: 16px, 32px, 16px, 32px;
+    margin-left: auto;
+    margin-right: auto;
+    
     letter-spacing: 0.04em;
 
     color: #FFFFFF;
-    display: flex;
+
+    /* margin-bottom: 188px; */
+    /* display: flex; */
+    /* text-align: center; */
     /* flex-direction: row;
     align-items: flex-start; */
     /* padding: 16px 32px; */
@@ -206,6 +266,29 @@ top: 432px; */
 
 .title-section-two {
     font-weight: 500;
+    outline: 3px solid tomato;
+    /* padding-top: 120px; */
+}
+
+.features-list {
+    display: block;
+    box-sizing: border-box;
+    outline: 2px solid purple;
+    /* padding-top: 120px; */
+}
+
+.features-item {
+    display: block;
+    box-sizing: border-box;
+    outline: 2px solid red;
+
+}
+
+.about-work-section {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 120px;
+    background-color: #cccccc;
 }
 
 .title-section-three {
