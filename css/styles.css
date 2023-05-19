@@ -405,8 +405,6 @@ background-color: #404BBF ;
 }
 
 .team-item {
-    /* display: flex; */
-    /* justify-content: center; */
     flex-wrap: wrap;
     margin: 32px 16px;
     max-width: 232px;
