@@ -425,12 +425,10 @@ background-color: #404BBF ;
 
 .footer-container {
     display: flex;
-    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 16px;
     width: 264px;
     height: 116px;
-    /* margin: 100px 1020px 100px 156px; */
     padding-top: 100px;
     margin-right: 1020px;
     margin-bottom: 100px;
