@@ -192,7 +192,7 @@ background-color: #404BBF ;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
+    display: inline-block;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -208,7 +208,7 @@ background-color: #404BBF ;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
+    display: inline-block;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -557,10 +557,10 @@ background-color: #404BBF ;
 .portfolio-card {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: flex-start;
-    align-items: flex-start; */
-    width: 360px;
-    height: 420px;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    /* width: 360px;
+    height: 420px; */
     flex-direction: column;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -641,6 +641,6 @@ background-color: #404BBF ;
     height: 420px;
     flex-direction: column;
     /* flex-basis: calc((100% - 20px) / 3); */
-    border: 1px solid #E7E9FC;
+    /* border: 1px solid #E7E9FC; */
 }
 /* ================/MAIN-portfolio=================== */
