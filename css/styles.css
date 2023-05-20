@@ -37,7 +37,7 @@ img {
 }
 
 a {
-    display: block;
+    display: inline-block;
 }
 
 /* =============HOVERS&FOCUS============== */
@@ -226,6 +226,7 @@ background-color: #404BBF ;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 
     color: var(--secondary-color)
 }
