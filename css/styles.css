@@ -100,7 +100,7 @@ background-color: #404BBF ;
 
 .link {
     text-decoration: none;
-    display: block;
+    display: flex;
 }
 
 .component-list {
@@ -164,10 +164,6 @@ background-color: #404BBF ;
 
 }
 
-.navigation {
-    /* display: flex; */
-    /* margin: 0 auto; */
-}
 
 .nav-menu {
     display: flex;
@@ -199,7 +195,7 @@ background-color: #404BBF ;
     color: var(--main-color);
     width: 44px;
     height: 21px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
     /* margin-bottom: 16px; */
     margin-right: 76px; 
 }
@@ -459,8 +455,27 @@ background-color: #404BBF ;
     margin-left: 156px;
 }
 
+.logo-web-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    width: 44px;
+    height: 21px;
+    /* padding: 24px 0; */
+    margin-bottom: 16px;
+    margin-right: 76px;
+}
+
 .logo-studio-footer {
     color: #f4f4fd;
+    display: inline-block;
+    /* margin-bottom: 16px; */
 }
 
 .footer-tips {
