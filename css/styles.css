@@ -72,18 +72,12 @@ background-color: #404BBF ;
 /* =============Components============== */
 
 .container {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
     width: 1158px;
-    /* padding-top: 120px; 
-    padding-bottom: 120px; */
-    /* justify-content: center;
-    align-content: center; */
-    margin-left: auto;
-    margin-right: auto;
-     /* padding-left: 15px;
-     padding-right: 15px;  */
-    /* background-color: #cccccc; */
+    margin: 0 auto;
+     padding-left: 15px;
+     padding-right: 15px; 
+
     /* outline: 2px solid red; */
 }
 
@@ -146,19 +140,26 @@ background-color: #404BBF ;
 }
 /* =============/Components============== */
 /* =============HEADER============== */
-
-.navigation {
-    border-bottom: 1px solid #e7e9fc
+.header {
+    border-bottom: 1px solid #e7e9fc 
 }
 
-/* .header-wrap {
-    display: flex;
-    
-    height: 72px; */
-    /* margin-left: 156px;
-    margin-right: 156px;
 
-} */
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* height: 72px;    */
+    /* margin-left: 156px;
+    margin-right: 156px; */
+
+}
 
 .navigation {
     /* display: flex; */
@@ -193,6 +194,7 @@ background-color: #404BBF ;
     color: var(--main-color);
     width: 44px;
     height: 21px;
+    padding: 24px 0;
 }
 
 .logo-studio {
@@ -207,6 +209,9 @@ background-color: #404BBF ;
     color: var(--secondary-color);
     width: 71px;
     height: 21px;
+    padding: 24px 0;
+
+    margin-right: 76px;
 }
 
 
@@ -221,7 +226,7 @@ background-color: #404BBF ;
     color: var(--secondary-color)
 }
 
-.adress {
+.header-adress {
     display: flex;
     font-style: normal;
     align-items: center;
@@ -235,6 +240,7 @@ background-color: #404BBF ;
 .adress-wrap-list {
     display: flex;
     padding-left: 322px;
+    gap: 40px;
 }
 
 
