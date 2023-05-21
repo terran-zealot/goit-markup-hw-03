@@ -100,7 +100,7 @@ background-color: #404BBF ;
 
 .link {
     text-decoration: none;
-    display: flex;
+    display: inline-block;
 }
 
 .component-list {
@@ -454,6 +454,7 @@ background-color: #404BBF ;
     margin-right: 1020px;
     /* margin-bottom: 100px; */
     margin-left: 156px;
+    
 }
 
 .logo-web-footer {
