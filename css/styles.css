@@ -443,7 +443,7 @@ background-color: #404BBF ;
 }
 
 .footer-container {
-    display: inline-block; 
+    display: flex; 
     flex-wrap: wrap;
     align-content: center;
     justify-content: start;
@@ -462,7 +462,7 @@ background-color: #404BBF ;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
+    display: inline-block;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
