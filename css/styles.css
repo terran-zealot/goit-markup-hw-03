@@ -172,7 +172,7 @@ background-color: #404BBF ;
     /* padding-left: 156px; */
     gap: 40px;
     margin-left: 71px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .header-btn-wrap {
@@ -227,7 +227,7 @@ background-color: #404BBF ;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* padding: 24px 0; */
+    padding: 24px 0;
 
     color: var(--secondary-color)
 }
