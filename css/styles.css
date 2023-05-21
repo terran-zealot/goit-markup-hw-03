@@ -172,6 +172,7 @@ background-color: #404BBF ;
     /* padding-left: 156px; */
     gap: 40px;
     margin-left: 71px;
+    padding: 24px 0;
 }
 
 .header-btn-wrap {
@@ -337,7 +338,7 @@ background-color: #404BBF ;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 120px;
+    padding: 120px 0;
     /* max-height: 104px; */
 }
 
@@ -383,7 +384,7 @@ background-color: #404BBF ;
 .about-work-section {
     display: block;
     box-sizing: border-box;
-    padding-top: 120px;
+    /* padding-top: 120px; */
     padding-bottom: 120px;
     /* background-color: #cccccc; */
 }
@@ -511,8 +512,8 @@ background-color: #404BBF ;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 72px; */
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+    /* padding-bottom: 72px; */
 }
 
 .portfolio-menu-btn {
@@ -592,7 +593,7 @@ background-color: #404BBF ;
     /* width: 360px;
     height: 420px; */
     flex-direction: column;
-    padding-bottom: 32px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     
@@ -609,7 +610,7 @@ background-color: #404BBF ;
        /* margin-top: 32px;
        padding-left: 16px; */
        /* padding-right: 202px; */
-       padding-bottom: 8px;
+       margin-bottom: 8px;
        padding-left: 16px;
        display: flex;
        justify-content: start;
