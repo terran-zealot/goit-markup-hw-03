@@ -443,16 +443,16 @@ background-color: #404BBF ;
 }
 
 .footer-container {
-    display: flex;
+    display: inline-block; 
     flex-wrap: wrap;
     align-content: center;
     justify-content: start;
-    /* gap: 16px; */
-    width: 264px;
-    height: 112px;
+    gap: 16px;
+     width: 264px; 
+    height: 112px; 
     /* padding-top: 100px; */
     margin-right: 1020px;
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
     margin-left: 156px;
     
 }
@@ -462,7 +462,7 @@ background-color: #404BBF ;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: inline-block;
+    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -471,7 +471,7 @@ background-color: #404BBF ;
     height: 21px;
     /* padding: 24px 0; */
     margin-bottom: 16px;
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 
 .logo-studio-footer {
