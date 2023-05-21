@@ -94,7 +94,7 @@ background-color: #404BBF ;
     display: flex;
     flex-wrap: ;
     
-    /* width: 1158px; */
+    width: 1158px;
     gap: 24px;
 }
 
@@ -118,7 +118,7 @@ background-color: #404BBF ;
     }
     
 .component-list-item {
-    display: block;
+    display: contents;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -367,8 +367,8 @@ background-color: #404BBF ;
     align-content: center;
     /* gap: 8px; */
 
-    /* min-width: 264px; */
-    max-height: 104px;
+    /* min-width: 264px;
+    max-height: 104px; */
     /* outline: 2px solid red; */
     width: calc((100% - 72px) / 4);
 }
