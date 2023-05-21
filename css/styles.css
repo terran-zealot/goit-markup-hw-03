@@ -436,13 +436,18 @@ background-color: #404BBF ;
 /* =============/MAIN============== */
 /* =============FOOTER============== */
 .footer {
+    display: flex;
     background-color: #2e2f42;
     width: 1440px;
     height: 312px; 
-    padding: 100px 0; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 1020px;
+    padding-left: 156px;
+
 }
 
-.footer-container {
+/* .footer-container {
     display: flex; 
     flex-wrap: wrap;
     align-content: center;
@@ -451,11 +456,11 @@ background-color: #404BBF ;
      width: 264px; 
     height: 112px; 
     /* padding-top: 100px; */
-    margin-right: 1020px;
+    /* margin-right: 1020px;
     margin-bottom: 100px;
-    margin-left: 156px;
+    margin-left: 156px; */
     
-}
+/* } */ 
 
 .logo-web-footer {
     font-family: 'Raleway', sans-serif;
@@ -481,7 +486,7 @@ background-color: #404BBF ;
 }
 
 .footer-tips {
-    display: inline;
+    display: flex;
     max-width: 264px;
 
     font-size: 16px;
