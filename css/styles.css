@@ -94,7 +94,7 @@ background-color: #404BBF ;
     display: flex;
     flex-wrap: ;
     
-    width: 1158px;
+    /* width: 1158px; */
     gap: 24px;
 }
 
@@ -345,6 +345,7 @@ background-color: #404BBF ;
     display: flex;
     gap: 24px;
     height: 104px;
+    width: 1158px;
 }
 
 .features-list {
@@ -502,14 +503,17 @@ background-color: #404BBF ;
 /* ================MAIN-portfolio=================== */
 
 .portfolio-menu {
-    padding: 96px 0 120px;
+    /* padding-top: 96px; */
+    /* padding-bottom: 72px; */
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .portfolio-btn-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
 }
 
 .portfolio-menu-btn {
