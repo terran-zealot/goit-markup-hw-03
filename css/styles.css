@@ -463,13 +463,13 @@ background-color: #404BBF ;
     font-size: 18px;
     line-height: 1.17;
     display: inline-block;
-    align-items: center;
+    /* align-items: center; */
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
-    width: 44px;
-    height: 21px;
-    /* padding: 24px 0; */
+    /* width: 44px; */
+    /* height: 21px; */
+    /* padding-top: 24px; */
     margin-bottom: 16px;
     /* margin-right: 76px; */
 }
