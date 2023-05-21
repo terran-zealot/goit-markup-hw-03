@@ -503,17 +503,14 @@ background-color: #404BBF ;
 /* ================MAIN-portfolio=================== */
 
 .portfolio-menu {
-    /* padding-top: 96px; */
-    /* padding-bottom: 72px; */
-    padding-left: auto;
-    padding-right: auto;
+    padding: 96px 0 120px;
 }
 
 .portfolio-btn-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 72px; */
+    margin-bottom: 72px;
 }
 
 .portfolio-menu-btn {
