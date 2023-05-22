@@ -544,8 +544,7 @@ background-color: #404BBF ;
        flex-wrap: wrap;
 }
 
-.portfolio-list-item {
-    font-weight: 500;
+.portfolio-list-item { 
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -553,7 +552,6 @@ background-color: #404BBF ;
     color: #434455;
     display: flex;
     margin-top: 0;
-    /* padding-left: 16px; */
     justify-content: center;
 }
 
