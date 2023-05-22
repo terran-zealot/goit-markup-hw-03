@@ -79,7 +79,7 @@ background-color: #404BBF ;
      padding-left: 15px;
      padding-right: 15px; 
 
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 .second-container {
@@ -164,7 +164,7 @@ background-color: #404BBF ;
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-left: 76px;
+    /* margin-left: 76px; */
 }
 
 /* .header-btn-wrap {
@@ -195,6 +195,7 @@ background-color: #404BBF ;
     text-transform: uppercase;
 
     color: var(--secondary-color);
+    margin-right: 76px;
 }
 
 
@@ -534,8 +535,8 @@ background-color: #404BBF ;
        line-height: 1.2;
        letter-spacing: 0.02em;
        color: var(--secondary-color);
-       /* margin-bottom: 8px;
-       padding-left: 16px; */
+       margin-bottom: 8px;
+       /* padding-left: 16px; */
        display: flex;
        justify-content: start;
        align-items: start;
