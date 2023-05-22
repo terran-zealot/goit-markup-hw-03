@@ -182,6 +182,7 @@ background-color: #404BBF ;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -195,7 +196,7 @@ background-color: #404BBF ;
     text-transform: uppercase;
 
     color: var(--secondary-color);
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 
 
